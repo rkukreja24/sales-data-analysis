@@ -1,89 +1,98 @@
 # 🛒 Sales Data Analysis Project
 
-This project explores and analyzes a retail sales dataset to extract actionable business insights. Alongside the technical work, I used [Monday.com](https://monday.com) to create a structured project roadmap and record my progress throughout, demonstrating end-to-end project management skills.
+This project explores and analyzes a retail sales dataset to extract actionable business insights. Alongside the technical implementation in Python, PostgreSQL, Dash, and Power BI, I used [Monday.com](https://monday.com) for structured project management.
+
+---
 
 ## 📂 Dataset Source
 
 - **Title:** Sales Data
 - **Author:** Jehanzaib Bhatti
 - **Link:** [Kaggle - Sales Data](https://www.kaggle.com/datasets/jehanzaibbhatti/sales-data)
-- **Description:** The dataset contains information on sales transactions including product ID, product category, region, sales figures, profit, and customer information.
+- **Description:** Contains retail transaction details including customer demographics, product information, profit, and revenue metrics.
 
 ---
 
-## 🎯 Project Planning & Management
+## 🎯 Objective
 
-- Used **Monday.com** to:
-  - Build a detailed **project roadmap** before starting
-  - Break down tasks into phases (Data Cleaning, EDA, Modeling, Reporting)
-  - Set goals and track progress
-  - Record learnings and blockers to reflect on improvements
-
-This approach helped ensure clarity, time management, and focus throughout the project lifecycle.
-
----
-
-## 🔍 Objective
-
-- Perform exploratory data analysis (EDA) to uncover key sales patterns
-- Identify top-selling products, peak sales periods, and profit-driving factors
-- Communicate insights via compelling visualizations
+- Load, clean, and analyze sales data
+- Store structured data in a PostgreSQL database
+- Build dynamic dashboards using Dash and Power BI to visualize KPIs
+- Derive business insights and seasonal trends
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- **Python**
+- **Python** – Data cleaning, transformation, and PostgreSQL integration
 - **Pandas, NumPy** – Data manipulation
-- **Matplotlib, Seaborn, Plotly** – Visualization
-- **Jupyter Notebook** – Development environment
-- **Monday.com** – Project planning & progress tracking
+- **Matplotlib, Seaborn, Plotly** – Visualizations
+- **SQLAlchemy** – PostgreSQL connection
+- **PostgreSQL** – Relational database storage
+- **Dash (Plotly)** – Interactive web dashboard
+- **Power BI** – Business reporting dashboard
+- **Monday.com** – Project planning & task tracking
 
 ---
 
-## 📊 Key Steps
-
-### 1. Project Roadmap
-- Defined objectives, milestones, and deliverables in Monday.com
-- Allocated time for each phase with weekly checkpoints
-
-### 2. Data Cleaning & Preparation
-- Removed duplicates and handled missing values
-- Parsed dates and standardized formats
-- Verified data consistency
-
-### 3. Exploratory Data Analysis
-- Visualized sales trends over time
-- Identified high-performing regions and product categories
-- Analyzed profit margins and seasonal patterns
-
-### 4. Visualization & Communication
-- Created charts to showcase key findings
-- Built a dashboard using Plotly Dash/Power BI for stakeholder insights
-
----
-
-## 📈 Results
-
-- Highlighted top product categories and seasonal demand spikes
-- Found that specific regions consistently outperform others
-- Developed a reproducible analysis pipeline for future updates
-
----
-
-## 📁 Project Structure
+## 🗂️ Project Structure
 
 ```
 sales-data-analysis/
-│
+│── visualization/
+│ ├── PowerBI.png
+│ ├── dash_dashboard.png
 ├── sales_data.csv
 ├── main.ipynb
+├── previousCode.py
 ├── SalesDashboard.pbit
 ├── README.md
 └── Project_Roadmap.docx
 ```
 
 ---
+
+---
+
+## 📊 Dash Dashboard (Python)
+
+I built a **live, interactive web dashboard** using **Plotly Dash** to visualize key performance indicators directly from the PostgreSQL database.
+
+**Key Features:**
+
+- 📈 Monthly revenue trends
+- 🏆 Top product categories
+- 👥 Customer segmentation by age and gender
+- 🗺️ Regional sales performance
+
+📷 **Screenshot – Dash Dashboard**
+![Dash Dashboard](visualization/dash_dashboard.mp4)
+
+---
+
+## 📊 Power BI Dashboard
+
+After storing the data in **PostgreSQL**, I connected **Power BI** to create a comprehensive and interactive dashboard for business stakeholders.
+
+**Key Features:**
+
+- 🎛️ Filters by date, country, and product category
+- 📉 Sales vs Profit visual breakdown
+- 🔢 Dynamic KPI cards and time series analysis
+- 👤 Customer demographics insights
+
+📷 **Screenshot – Power BI Dashboard**
+![Power BI Dashboard](visualization/powerbi_dashboard.png)
+
+---
+
+## 📈 Key Insights
+
+- **Top Products:** Identified best-selling products based on revenue
+- **Seasonality:** Clear seasonal trends in product demand and sales
+- **Customer Insights:** Higher profit margins in specific age groups and regions
+- **Profit Drivers:** Certain sub-categories deliver consistently high profit-to-cost ratios
+
 
 ## ✅ Next Steps
 

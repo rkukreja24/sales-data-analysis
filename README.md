@@ -66,7 +66,7 @@ I built a **live, interactive web dashboard** using **Plotly Dash** to visualize
 - 🗺️ Regional sales performance
 
 📷 **Screenshot – Dash Dashboard**
-![Dash Dashboard](visualization/dash_dashboard.mp4)
+![Dash Dashboard](visualization/dash_dashboard.gif)
 
 ---
 

@@ -82,7 +82,7 @@ After storing the data in **PostgreSQL**, I connected **Power BI** to create a c
 - 👤 Customer demographics insights
 
 📷 **Screenshot – Power BI Dashboard**
-![Power BI Dashboard](visualization/PowerBI.png)
+![Power BI Dashboard](visualization/PowerBI.PNG)
 
 ---
 
